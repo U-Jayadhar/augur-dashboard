@@ -19,7 +19,7 @@ Since the project fetches a local JSON file, it must be served using a local ser
 - Using VS Code "Live Preview" extension:
   - Right-click `index.html` and select **Open with Live Preview**.
 
-Then open `http://localhost:3000/` (or the port provided) in your browser.
+Then open `http://localhost:3000/index.html` (or the port provided) in your browser.
 
 ## Features
 - Responsive layout using Flexbox.
