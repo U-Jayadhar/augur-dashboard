@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Scope+One&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: #333333;
+}
+
+header {
+  background-color: #0096d6;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+main {
+  flex-grow: 1;
+  margin: 20px;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00356d;
+}
+
+#dashboard-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.distributor-card {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.distributor-card h2 {
+  margin-top: 0;
+  color: #0096d6;
+}
+
+.distributor-card span {
+  margin-top: 0;
+  font-weight: 600;
+  color: #eb7b30;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #ebebeb;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "distributorName": "Acme Beverage Distribution",
+    "lastMonthQuantity": 28500,
+    "forecastedQuantity": 30000,
+    "yearToDateAverageQuantity": 25750,
+    "additionalMetric": "98% On-Time Delivery Rate"
+  },
+  {
+    "distributorName": "National Refreshments Inc.",
+    "lastMonthQuantity": 20000,
+    "forecastedQuantity": 21500,
+    "yearToDateAverageQuantity": 18200,
+    "additionalMetric": "1.5% Order Defect Rate"
+  }
+]
