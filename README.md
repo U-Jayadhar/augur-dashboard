@@ -7,10 +7,12 @@ It displays a simple dashboard for PEPSICO's supply chain forecast using **HTML*
 ## Project Structure
 ```
 /augur-dashboard
-  ├── index.html        # Main HTML page
-  ├── styles.css         # Styling with DM Sans and Scope One fonts
-  ├── script.js          # JavaScript for dynamic content
-  └── mockData.json      # Mock data for distributors
+  ├── data/
+       └── mockdata.json
+  ├── index.html
+  ├── styles.css
+  ├── script.js
+  └── README.md
 ```
 
 ## How to Run

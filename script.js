@@ -15,7 +15,7 @@ function createDistributorCard(distributorData) {
 
 const dashboardContainer = document.getElementById("dashboard-container");
 
-fetch('/data/mockdata.json')
+fetch('./data/mockdata.json')
   .then(response => response.json())
   .then(mockData => {
     mockData.forEach(distributor => {
