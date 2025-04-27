@@ -3,28 +3,17 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger on pushes to the main branch
+      - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.x'  # Use a supported Node.js version
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build  # Your build command (e.g., build, prod, dist)
-
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist   # The folder where your build output is located
+          folder: .  # Deploy the entire repository root
